@@ -1,0 +1,42 @@
+#mainheader {
+  background: #000;
+  color: #fff;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+  h1 {
+    padding: 20px;
+    font-weight: lighter;
+  }
+  p {
+    width: 65%;
+    margin: 0 auto;
+    font-weight: lighter;
+  }
+} //End #mainheader
+
+#portfolio {
+  background: #f9f9f9;
+  .portfolio-wrap {
+    display: flex;
+    justify-content: space-between;
+    &-box {
+      img {
+        height: 300px;
+      }
+      p {
+        background: #ededed;
+        padding: 20px;
+      }
+    }
+  }
+} //End #portfolio
+
+#mainfooter {
+  p {
+    text-align: center;
+    padding: 20px;
+    background: #ededed;
+    margin: 0;
+  }
+}
